@@ -1,6 +1,7 @@
 module RecordBasedModule exposing (PublicType)
 
-{-| This module does very little in and of itself. It defines the data shape that we care about and offers a sample `view` method.
+{-| This module does very little in and of itself. It defines the data shape
+that we care about and offers a sample `view` method.
 -}
 
 import Html exposing (Html)

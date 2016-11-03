@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "Toy example that demonstrates the trade offs between exposing records vs unions in your modules.",
-    "repository": "https://github.com/naddeoa/elm-tutorials-and-examples",
+    "summary": "Example that shows trade offs between api designs",
+    "repository": "https://github.com/naddeoa/elm-tutorials-and-examples.git",
     "license": "BSD3",
     "source-directories": [
         "src/"
