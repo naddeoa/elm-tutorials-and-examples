@@ -63,6 +63,11 @@ empty =
     PublicType' (Model "" "")
 
 
+{-| firstName and lastName are functions that we provide consumers that they
+can use to set first and last names on `PublicType`. Whether or not we actually
+want to provide this functionality depends on what our program is doing. The
+pointhere is that people can only do what we allow them to do
+-}
 firstName : String -> PublicType -> PublicType
 firstName name publicType =
     let
@@ -72,6 +77,8 @@ firstName name publicType =
         PublicType' { model | firstName = name }
 
 
+{-| Same type of function as firstName.
+-}
 lastName : String -> PublicType -> PublicType
 lastName name publicType =
     let
